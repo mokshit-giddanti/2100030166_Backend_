@@ -66,6 +66,7 @@ SELECT DATE_FORMAT(Orders.OrderDate, '%Y-%m') AS Month, COUNT(Orders.OrderID) AS
 ![alt text](/images/image6.png)
 
 ## Task_8 Find customers who have spent more than $1000.
+SQL Query:
 ```sql
 SELECT Customers.CustomerID, Customers.FirstName, Customers.LastName
 FROM Customers
